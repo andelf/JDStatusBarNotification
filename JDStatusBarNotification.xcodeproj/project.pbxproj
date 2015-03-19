@@ -15,6 +15,7 @@
 		DF9E20311ABB28BA00ABD6F3 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E202C1ABB28BA00ABD6F3 /* JDStatusBarStyle.m */; };
 		DF9E20321ABB28BA00ABD6F3 /* JDStatusBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9E202D1ABB28BA00ABD6F3 /* JDStatusBarView.h */; };
 		DF9E20331ABB28BA00ABD6F3 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E202E1ABB28BA00ABD6F3 /* JDStatusBarView.m */; };
+		DF9E20351ABB2ADB00ABD6F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9E20341ABB2ADB00ABD6F3 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		DF9E202C1ABB28BA00ABD6F3 /* JDStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarStyle.m; sourceTree = "<group>"; };
 		DF9E202D1ABB28BA00ABD6F3 /* JDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarView.h; sourceTree = "<group>"; };
 		DF9E202E1ABB28BA00ABD6F3 /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
+		DF9E20341ABB2ADB00ABD6F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9E20351ABB2ADB00ABD6F3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		DF9E20041ABB282B00ABD6F3 = {
 			isa = PBXGroup;
 			children = (
+				DF9E20341ABB2ADB00ABD6F3 /* UIKit.framework */,
 				DF9E20101ABB282B00ABD6F3 /* JDStatusBarNotification */,
 				DF9E201D1ABB282B00ABD6F3 /* JDStatusBarNotificationTests */,
 				DF9E200F1ABB282B00ABD6F3 /* Products */,
@@ -344,7 +348,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = JDStatusBarNotification/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -360,7 +364,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = JDStatusBarNotification/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
