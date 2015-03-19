@@ -11,9 +11,9 @@
 		DF9E201A1ABB282B00ABD6F3 /* JDStatusBarNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9E200E1ABB282B00ABD6F3 /* JDStatusBarNotification.framework */; };
 		DF9E20211ABB282B00ABD6F3 /* JDStatusBarNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E20201ABB282B00ABD6F3 /* JDStatusBarNotificationTests.m */; };
 		DF9E202F1ABB28BA00ABD6F3 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E202A1ABB28BA00ABD6F3 /* JDStatusBarNotification.m */; };
-		DF9E20301ABB28BA00ABD6F3 /* JDStatusBarStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9E202B1ABB28BA00ABD6F3 /* JDStatusBarStyle.h */; };
+		DF9E20301ABB28BA00ABD6F3 /* JDStatusBarStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9E202B1ABB28BA00ABD6F3 /* JDStatusBarStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF9E20311ABB28BA00ABD6F3 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E202C1ABB28BA00ABD6F3 /* JDStatusBarStyle.m */; };
-		DF9E20321ABB28BA00ABD6F3 /* JDStatusBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9E202D1ABB28BA00ABD6F3 /* JDStatusBarView.h */; };
+		DF9E20321ABB28BA00ABD6F3 /* JDStatusBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9E202D1ABB28BA00ABD6F3 /* JDStatusBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF9E20331ABB28BA00ABD6F3 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E202E1ABB28BA00ABD6F3 /* JDStatusBarView.m */; };
 		DF9E20351ABB2ADB00ABD6F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9E20341ABB2ADB00ABD6F3 /* UIKit.framework */; };
 /* End PBXBuildFile section */
@@ -420,6 +420,7 @@
 				DF9E20261ABB282B00ABD6F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF9E20271ABB282B00ABD6F3 /* Build configuration list for PBXNativeTarget "JDStatusBarNotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				DF9E20291ABB282B00ABD6F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
